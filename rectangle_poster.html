@@ -4,13 +4,13 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Square Poster</title>
+    <title>Rectangle Poster</title>
     <link rel = "icon" href =
     ./images/SVG/viniyuk_favicon.svg
           type = "image/x-icon">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/square_poster.css">
+    <link rel="stylesheet" href="./css/rectangle_poster.css">
 </head>
 
 <body>
@@ -48,8 +48,8 @@
 </nav>
 
     <section>
-        <div id="poster" style="width: 100vw; height: 100vw;">
-            <div style="height: 89.02397%;">
+        <div id="poster">
+            <div style="height: 89.02574%;">
                 <img src="./images/house.jpg" alt="House" id="image1">
             </div>
             <img src="./images/header.svg" alt="Header" id="header">
@@ -67,7 +67,7 @@
 
             </div>
             <div id="footer">
-                <img src="./images/footer.svg" alt="Footer">
+                <img src="./images/SVG/footer1.svg" alt="Footer">
                 <p id="tel">
 
                 </p>
@@ -78,7 +78,6 @@
             <div class="row" style="margin-bottom: 15px;">
                 <div class="col-sm-12" style="text-align: center;">
                     <button type="button" class="btn" onclick="downloadposter()" style="background-color: #7c141f; color: white;">Download Poster</button>
-                    <button type="button" class="btn" id="btnDownload" style="background-color: #7c141f; color: white;">Download</button>
                 </div>
             </div>
 
@@ -139,29 +138,28 @@
 
 
         <div style="position: relative;">
-            <div id="poster1">
-                <div style="height: 89.02397%;">
+            <div id="poster">
+                <div style="height: 89.02574%;">
                     <img src="./images/house.jpg" alt="House" id="image2">
                 </div>
-                <img src="./images/header.svg" alt="Header" id="header1">
-                <img src="./images/SVG/viniyuk_favicon.svg" alt="Logo" id="logo1">
+                <img src="./images/header.svg" alt="Header" id="header">
+                <img src="./images/SVG/viniyuk_favicon.svg" alt="Logo" id="logo">
                 <div id="house-type1">
-                    វីឡាភ្លោះ
+    
                 </div>
                 <div id="house-location1">
-                    បុរីជីបម៉ុង ហ្គ្រេនភ្នំពេញ
+    
                 </div>
                 <div id="dollar-sign1">
                     $
                 </div>
                 <div id="house-cost1">
-                    715,000
+    
                 </div>
-                <div id="footer1">
-                    <img src="./images/footer.svg" alt="Footer">
+                <div id="footer">
+                    <img src="./images/SVG/footer1.svg" alt="Footer">
                     <p id="tel1">
-                        010 530 990
-                        011 530 990
+    
                     </p>
                 </div>
             </div>
@@ -175,7 +173,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
-    <script src="js/square_poster.js"></script>
+    <script src="js/rectangle_poster.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
 
 </body>

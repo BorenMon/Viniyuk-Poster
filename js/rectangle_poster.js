@@ -56,7 +56,7 @@ document.getElementById("house-cost-input").addEventListener("keyup", function()
 
 function downloadposter() {
 
-    var node = document.getElementById('poster1');
+    var node = document.getElementById('poster');
 
     domtoimage.toJpeg(node, { quality: 1 })
     .then(function (dataUrl) {
@@ -89,22 +89,4 @@ inpFile.addEventListener("change", function () {
         previewImage1.setAttribute("src", "./images/house.jpg");
         previewImage2.setAttribute("src", "./images/house.jpg");
     }
-});
-
-const btnDownload = document.getElementById("btnDownload");
-const myCanvas = document.getElementById("poster1");
-
-btnDownload.addEventListener("click", function(){
-if(window.navigator.msSaveBlob){
-    window.navigator.msSaveBlob(myCanvas.msToBlob(), "canvas-umage.png");
-}
-else{
-    const a = document.createElement("a");
-
-    document.body.appendChild(a);
-    a.href = myCanvas.toDataURL("image/jpeg", 0.1);
-    a.download = "canvas-image.jpg";
-    a.click();
-    document.body.removeChild(a);
-}
 });

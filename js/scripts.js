@@ -50,17 +50,3 @@ document.getElementById("house-cost-input").addEventListener("keyup", function()
         queryText1.innerHTML = "";
     }
 });
-
-function downloadtable() {
-
-    var node = document.getElementById('poster1');
-
-    domtoimage.toJpeg(node, { quality: 1 })
-        .then(function (dataUrl) {
-            var link = document.createElement('a');
-            link.download = 'poster.jpeg';
-            link.href = dataUrl;
-            link.click();
-        });
-
-}

@@ -1,0 +1,52 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@font-face{
+    src: url(../fonts/GOTHICB0.TTF);
+    font-family: "Gothic Bold";
+}
+@font-face{
+    src: url(../fonts/Century-Gothic.ttf);
+    font-family: "Gothic Regular";
+}
+#logo{
+    position: relative;
+    display: block;
+    height: 47px;
+}
+.navbar{
+    background-color: #7c141f;
+}
+.nav-link{
+    color: white !important;
+    font-family: "Gothic Bold";
+    font-size: 15px;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.welcome-text{
+    text-align: center;
+    margin: 27px 0;
+    font-family: "Gothic Bold";
+    color: #7c141f;
+    font-size: 37px;
+}
+.card-text{
+    font-family: "Gothic Bold";
+    color: #7c141f;
+    font-size: 27px;
+    text-align: center;
+}
+.card{
+    margin-bottom: 27px;
+    border: #7c141f 2px solid;
+}
+a{
+    text-decoration: none !important;
+}

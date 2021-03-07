@@ -10,6 +10,22 @@
     src: url(../fonts/Krasar-Regular.ttf);
     font-family: "Krasa Regular";
 }
+#logo2{
+    position: relative;
+    display: block;
+    height: 47px;
+}
+.navbar{
+    background-color: #7c141f;
+}
+.nav-link{
+    color: white !important;
+    font-family: "Gothic Bold";
+    font-size: 15px;
+}
+.navbar-toggler{
+    background-color: white;
+}
 *{
     box-sizing: border-box;
 }
@@ -27,8 +43,9 @@ section{
 }
 #poster{
     position: relative;
+    margin: 27px 0;
 }
-#image{
+#image1{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -36,31 +53,19 @@ section{
     overflow: hidden;
 }
 #house-type-input{
-    width: 100%;
-    margin-top: 27px;
     resize: vertical;
-    padding: 5px;
     font-family: "Gothic Bold";
 }
 #house-location-input{
-    width: 100%;
-    margin-top: 27px;
     resize: vertical;
-    padding: 5px;
     font-family: "Gothic Bold";
 }
 #house-cost-input{
-    width: 100%;
-    margin-top: 27px;
     resize: vertical;
-    padding: 5px;
     font-family: "Gothic Bold";
 }
 #tel-input{
-    width: 100%;
-    margin: 27px 0;
     resize: vertical;
-    padding: 5px;
     font-family: "Gothic Bold";
 }
 .button{
@@ -144,7 +149,7 @@ section{
         width: 1000vw; 
         height: 1000vw;
     }
-    #image1{
+    #image2{
         height: 100%;
         width: 100%;
         object-fit: cover;
@@ -229,7 +234,7 @@ section{
         width: 500vw; 
         height: 500vw;
     }
-    #image1{
+    #image2{
         height: 100%;
         width: 100%;
         object-fit: cover;

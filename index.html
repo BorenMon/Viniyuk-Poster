@@ -40,11 +40,11 @@
             </div>
         </div>
         
-        <textarea id="house-type-input" placeholder="Enter House Type Here"​ style="font-family: 'Krasa Medium';"></textarea>
+        <textarea id="house-type-input" placeholder="Enter House Type Here" style="font-family: 'Krasa Medium';"></textarea>
         <textarea id="house-location-input" placeholder="Enter House Location Here" style="font-family: 'Krasa Regular';"></textarea>
         <textarea id="house-cost-input" placeholder="Enter House Cost Here"></textarea>
         <textarea id="tel-input" placeholder="Enter Tel Here"></textarea>
-        <button type="button" class="button" onclick="downloadtable()" style="margin-bottom: 17px;">Download</button>
+        <button type="button" class="button" onclick="downloadposter()" style="margin-bottom: 17px;">Download</button>
 
         <div style="position: relative;">
             <div id="poster1">
@@ -96,17 +96,17 @@
 </body>
     <script>
 
-        function downloadtable() {
+        function downloadposter() {
 
             var node = document.getElementById('poster1');
 
             domtoimage.toJpeg(node, { quality: 1 })
-    .then(function (dataUrl) {
-        var link = document.createElement('a');
-        link.download = 'poster.jpeg';
-        link.href = dataUrl;
-        link.click();
-    });
+            .then(function (dataUrl) {
+                var link = document.createElement('a');
+                link.download = 'poster.jpeg';
+                link.href = dataUrl;
+                link.click();
+            });
 
         }
 

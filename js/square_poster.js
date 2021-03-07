@@ -90,21 +90,3 @@ inpFile.addEventListener("change", function () {
         previewImage2.setAttribute("src", "./images/house.jpg");
     }
 });
-
-const btnDownload = document.getElementById("btnDownload");
-const myCanvas = document.getElementById("poster1");
-
-btnDownload.addEventListener("click", function(){
-if(window.navigator.msSaveBlob){
-    window.navigator.msSaveBlob(myCanvas.msToBlob(), "canvas-umage.png");
-}
-else{
-    const a = document.createElement("a");
-
-    document.body.appendChild(a);
-    a.href = myCanvas.toDataURL("image/jpeg", 0.1);
-    a.download = "canvas-image.jpg";
-    a.click();
-    document.body.removeChild(a);
-}
-});

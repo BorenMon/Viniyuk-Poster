@@ -91,6 +91,10 @@ section{
     display: block;
     top: 9.9%;
     left: 61.5%;
+    width: 15%;
+    height: 4%;
+    padding-left: 0.1%;
+    overflow: hidden;
     color: white;
     font-family: "Krasa Medium";
     font-size: 2.7vw;
@@ -101,6 +105,10 @@ section{
     display: block;
     top: 14.3%;
     left: 61.5%;
+    width: 17.7%;
+    height: 2%;
+    padding-left: 0.1%;
+    overflow: hidden;
     color: white;
     font-family: "Krasa Regular";
     font-size: 1.2vw;
@@ -121,6 +129,9 @@ section{
     display: block;
     top: 9.5%;
     left: 80.5%;
+    width: 13%;
+    height: 4%;
+    overflow: hidden;
     color: #fee47c;
     font-family: "Gothic Bold";
     font-size: 3.5vw;
@@ -133,14 +144,16 @@ section{
 #tel{
     position: absolute;
     color: white;
-    top: 14.7%;
+    top: 16.5%;
     left: 9.8%;
     width: 23.3%;
+    height: 77%;
     font-family: "Gothic Bold";
     font-size: 3.4vw;
     text-align: left;
     line-height: 1.2;
     margin: 0;
+    overflow: hidden;
 }
 
 @media only screen and (min-width: 0){
@@ -175,6 +188,10 @@ section{
         display: block;
         top: 9.9%;
         left: 61.5%;
+        width: 15%;
+        height: 4%;
+        padding-left: 0.1%;
+        overflow: hidden;
         color: white;
         font-family: "Krasa Medium";
         font-size: 27vw;
@@ -185,6 +202,10 @@ section{
         display: block;
         top: 14.3%;
         left: 61.5%;
+        width: 17.7%;
+        height: 2%;
+        padding-left: 0.1%;
+        overflow: hidden;
         color: white;
         font-family: "Krasa Regular";
         font-size: 12vw;
@@ -217,14 +238,16 @@ section{
     #tel1{
         position: absolute;
         color: white;
-        top: 14.7%;
+        top: 16.5%;
         left: 9.8%;
         width: 23.3%;
+        height: 77%;
         font-family: "Gothic Bold";
         font-size: 34vw;
         text-align: left;
         line-height: 1.2;
         margin: 0;
+        overflow: hidden;
     }
 }
 
@@ -261,6 +284,10 @@ section{
         top: 9.9%;
         left: 61.5%;
         color: white;
+        width: 15%;
+        height: 4%;
+        padding-left: 0.1%;
+        overflow: hidden;
         font-family: "Krasa Medium";
         font-size: 13.5vw;
         text-align: left;
@@ -270,6 +297,10 @@ section{
         display: block;
         top: 14.3%;
         left: 61.5%;
+        width: 17.7%;
+        height: 2%;
+        padding-left: 0.1%;
+        overflow: hidden;
         color: white;
         font-family: "Krasa Regular";
         font-size: 6vw;
@@ -302,13 +333,15 @@ section{
     #tel1{
         position: absolute;
         color: white;
-        top: 14.7%;
+        top: 16.5%;
         left: 9.8%;
         width: 23.3%;
+        height: 77%;
         font-family: "Gothic Bold";
         font-size: 17vw;
         text-align: left;
         line-height: 1.2;
         margin: 0;
+        overflow: hidden;
     }
 }

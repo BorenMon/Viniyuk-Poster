@@ -56,26 +56,32 @@
             <img src="./images/header.svg" alt="Header" id="header">
             <img src="./images/SVG/viniyuk_favicon.svg" alt="Logo" id="logo">
             <div id="house-type">
-                
+
             </div>
             <div id="house-location">
-                
+
             </div>
             <div id="dollar-sign">
                 $
             </div>
             <div id="house-cost">
-                
+
             </div>
             <div id="footer">
                 <img src="./images/footer.svg" alt="Footer">
                 <p id="tel">
-                    
+
                 </p>
             </div>
         </div>
 
         <div class="container">
+            <div class="row" style="margin-bottom: 15px;">
+                <div class="col-sm-12" style="text-align: center;">
+                    <button type="button" class="btn" onclick="downloadposter()" style="background-color: #7c141f; color: white;">Download Poster</button>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-sm-12">
                     <div class="input-group mb-3">
@@ -91,31 +97,31 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6" style="margin-bottom: 15px;">
-                    <div class="input-group">
+                <div class="col-sm-6">
+                    <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">House Type</span>
+                          <span class="input-group-text" id="basic-addon3">House Type</span>
                         </div>
-                        <textarea class="form-control" aria-label="House Type" id="house-type-input"></textarea>
+                        <input type="text" class="form-control" id="house-type-input" aria-describedby="basic-addon3"​​​ minlength="10">
                     </div>
                 </div>
-                <div class="col-sm-6" style="margin-bottom: 15px;">
-                    <div class="input-group">
+                <div class="col-sm-6">
+                    <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">House Location</span>
+                          <span class="input-group-text" id="basic-addon3">House Location</span>
                         </div>
-                        <textarea class="form-control" aria-label="House Location" id="house-location-input"></textarea>
+                        <input type="text" class="form-control" id="house-location-input" aria-describedby="basic-addon3"​​​ minlength="10">
                     </div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-sm-6" style="margin-bottom: 15px;">
-                    <div class="input-group">
+                <div class="col-sm-6">
+                    <div class="input-group mb-3">
                         <div class="input-group-prepend">
-                            <span class="input-group-text">House Cost</span>
+                          <span class="input-group-text" id="basic-addon3">House Cost</span>
                         </div>
-                        <textarea class="form-control" aria-label="House Cost" id="house-cost-input"></textarea>
+                        <input type="text" class="form-control" id="house-cost-input" aria-describedby="basic-addon3"​​​ minlength="10">
                     </div>
                 </div>
                 <div class="col-sm-6" style="margin-bottom: 15px;">
@@ -128,11 +134,6 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-sm-12" style="text-align: center;">
-                    <button type="button" class="btn" onclick="downloadposter()" style="background-color: #7c141f; color: white;">Download Poster</button>
-                </div>
-            </div>
         </div>
 
 

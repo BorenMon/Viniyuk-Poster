@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/square_poster.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,7 +82,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
-    <script src="./js/scripts.js"></script>
+    <script src="js/square_poster.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
 
 </body>

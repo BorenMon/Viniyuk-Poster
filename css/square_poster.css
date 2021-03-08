@@ -45,7 +45,7 @@ section{
     position: relative;
     margin: 27px 0;
 }
-#image1{
+#image{
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -162,26 +162,12 @@ section{
         width: 1000vw; 
         height: 1000vw;
     }
-    #image2{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
-    }
     #logo1{
         position: absolute;
         width: 14.7%;
         display: block;
         top: 5%;
         left: 4%;
-    }
-    #header1{
-        position: absolute;
-        width: 38.5%;
-        display: block;
-        top: 5%;
-        right: 4%;
     }
     #house-type1{
         position: absolute;
@@ -231,10 +217,6 @@ section{
         font-size: 35vw;
         text-align: left;
     }
-    #footer1{
-        position: relative;
-        height: 10.976027%;
-    }
     #tel1{
         position: absolute;
         color: white;
@@ -257,26 +239,12 @@ section{
         width: 500vw; 
         height: 500vw;
     }
-    #image2{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        object-position: center;
-        overflow: hidden;
-    }
     #logo1{
         position: absolute;
         width: 14.7%;
         display: block;
         top: 5%;
         left: 4%;
-    }
-    #header1{
-        position: absolute;
-        width: 38.5%;
-        display: block;
-        top: 5%;
-        right: 4%;
     }
     #house-type1{
         position: absolute;
@@ -325,10 +293,6 @@ section{
         font-family: "Gothic Bold";
         font-size: 17.5vw;
         text-align: left;
-    }
-    #footer1{
-        position: relative;
-        height: 10.976027%;
     }
     #tel1{
         position: absolute;

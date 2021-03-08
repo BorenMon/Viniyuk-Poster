@@ -58,14 +58,26 @@ function downloadposter() {
 
     var node = document.getElementById('poster1');
 
-    domtoimage.toJpeg(node, { quality: 1 })
-    .then(function (dataUrl) {
-        var link = document.createElement('a');
-        link.download = 'poster.jpeg';
-        link.href = dataUrl;
-        link.click();
-    });
+        domtoimage.toPng(node)
+            .then(function (dataUrl) {
+                var img = new Image();
+                img.src = dataUrl;
+                downloadURI(dataUrl, "poster.png")
+            })
+            .catch(function (error) {
+                console.error('oops, something went wrong!', error);
+            });
 
+}
+
+function downloadURI(uri, name) {
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    delete link;
 }
 
 const inpFile = document.getElementById("inputGroupFile01");

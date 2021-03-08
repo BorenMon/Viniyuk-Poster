@@ -45,7 +45,7 @@ section{
     position: relative;
     margin: 27px 0;
 }
-#image{
+#image1, #image2{
     height: 100%;
     width: 100%;
     object-fit: cover;

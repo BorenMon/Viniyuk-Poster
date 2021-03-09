@@ -50,18 +50,10 @@ html,body
 a{
     text-decoration: none !important;
 }
-.card-img-text{
+.img-ratio{
     position: absolute; 
-    left: 50%;
-    margin-left: -50px;
     top: 50%;
-    margin-top: -50px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 100px;
-    color: #7c141f;
-    text-shadow: 1px 1px white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 25%;
 }

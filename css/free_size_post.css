@@ -42,27 +42,12 @@ section{
     margin: auto;
 }
 #poster{
+    height: fit-content;
     position: relative;
     margin: 27px 0;
 }
-#image1, #image2{
-    width: 100%;
-}
-#house-type-input{
-    resize: vertical;
-    font-family: "Gothic Bold";
-}
-#house-location-input{
-    resize: vertical;
-    font-family: "Gothic Bold";
-}
-#house-cost-input{
-    resize: vertical;
-    font-family: "Gothic Bold";
-}
-#tel-input{
-    resize: vertical;
-    font-family: "Gothic Bold";
+#image1{
+    height: 100vw;
 }
 .button{
     font-size: 15px;
@@ -70,7 +55,7 @@ section{
 }
 #logo{
     position: absolute;
-    height: 17%;
+    height: 15%;
     display: block;
     top: 4vw;
     left: 4vw;
@@ -84,29 +69,27 @@ section{
 }
 
 @media only screen and (min-width: 0){
-    #poster1{
-        position: relative;
-        width: 500vw; 
+    #image2{
+        height: 500vw; 
     }
     #logo1{
         position: absolute;
-        height: 17%;
-        display: block;
-        top: 20vw;
-        left: 20vw;
+    height: 15%;
+    display: block;
+    top: 20vw;
+    left: 20vw;
     }
 }
 
 @media only screen and (min-width: 1000px){
-    #poster1{
-        position: relative;
-        width: 300vw; 
+    #image2{
+        height: 300vw; 
     }
     #logo1{
         position: absolute;
-        height: 17%;
-        display: block;
-        top: 12vw;
-        left: 12vw;
+        height: 15%;
+    display: block;
+    top: 12vw;
+    left: 12vw;
     }
 }

@@ -50,3 +50,18 @@ html,body
 a{
     text-decoration: none !important;
 }
+.card-img-text{
+    position: absolute; 
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: #7c141f;
+    text-shadow: 1px 1px white;
+}

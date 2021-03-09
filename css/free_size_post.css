@@ -55,7 +55,7 @@ section{
 }
 #logo{
     position: absolute;
-    height: 15%;
+    height: 13%;
     display: block;
     top: 4vw;
     left: 4vw;
@@ -74,7 +74,7 @@ section{
     }
     #logo1{
         position: absolute;
-    height: 15%;
+    height: 13%;
     display: block;
     top: 20vw;
     left: 20vw;
@@ -87,7 +87,7 @@ section{
     }
     #logo1{
         position: absolute;
-        height: 15%;
+        height: 13%;
     display: block;
     top: 12vw;
     left: 12vw;

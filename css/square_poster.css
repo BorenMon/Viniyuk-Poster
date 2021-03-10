@@ -58,11 +58,11 @@ section{
 }
 #house-type-input{
     resize: vertical;
-    font-family: "Gothic Bold";
+    font-family: "Gothic Bold", "Krasa Medium";
 }
 #house-location-input{
     resize: vertical;
-    font-family: "Gothic Bold";
+    font-family: "Gothic Regular", "Krasa Regular";
 }
 #house-cost-input{
     resize: vertical;

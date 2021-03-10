@@ -10,6 +10,10 @@
     src: url(../fonts/Krasar-Regular.ttf);
     font-family: "Krasa Regular";
 }
+@font-face{
+    src: url(../fonts/Century-Gothic.ttf);
+    font-family: "Gothic Regular";
+}
 #logo2{
     position: relative;
     display: block;
@@ -54,11 +58,11 @@ section{
 }
 #house-type-input{
     resize: vertical;
-    font-family: "Gothic Bold";
+    font-family: "Gothic Bold", "Krasa Medium";
 }
 #house-location-input{
     resize: vertical;
-    font-family: "Gothic Bold";
+    font-family: "Gothic Regular", "Krasa Regular";
 }
 #house-cost-input{
     resize: vertical;
@@ -74,86 +78,73 @@ section{
 }
 #logo{
     position: absolute;
-    width: 10.7%;
+    width: 12%;
     display: block;
     top: 5%;
-    left: 2.8%;
+    left: 3.5%;
 }
 #header{
     position: absolute;
-    width: 33.7%;
+    width: 35%;
     display: block;
-    top: 5%;
-    right: 4%;
+    top: 5.9%;
+    right: 3.7%;
 }
 #house-type{
     position: absolute;
     display: block;
-    top: 12.3%;
-    left: 65%;
-    width: 15%;
-    height: 6.5%;
+    top: 12.1%;
+    left: 64.3%;
     padding: 0.2%;
     overflow: hidden;
     color: white;
-    font-family: "Krasa Medium";
-    font-size: 2.47vw;
+    font-family: "Gothic Bold", "Krasa Medium";
+    font-size: 2.57vw;
     text-align: left;
 }
 #house-location{
     position: absolute;
     display: block;
-    top: 19%;
-    left: 65%;
+    top: 19.5%;
+    left: 64.3%;
     width: 17.7%;
-    height: 4%;
     padding: 0.2%;
     overflow: hidden;
     color: white;
-    font-family: "Krasa Regular";
-    font-size: 1.2vw;
-    text-align: left;
-}
-#dollar-sign{
-    position: absolute;
-    display: block;
-    top: 12%;
-    left: 80.5%;
-    color: #fee47c;
-    font-family: "Gothic Bold";
-    font-size: 2vw;
+    font-family: "Gothic Regular", "Krasa Regular";
+    font-size: 1.5vw;
     text-align: left;
 }
 #house-cost{
     position: absolute;
     display: block;
-    top: 11.3%;
-    left: 81.7%;
+    top: 12%;
+    left: 83.7%;
     width: 13%;
     height: 8%;
     overflow: hidden;
     color: #fee47c;
     font-family: "Gothic Bold";
-    font-size: 3vw;
+    font-size: 2.8vw;
     text-align: left;
-}
-#footer{
-    position: relative;
-    height: 10.981111%;
 }
 #tel{
     position: absolute;
     color: white;
-    top: 34.7%;
+    top: 28%;
     left: 5.9%;
     width: 35%;
     height: 57%;
     font-family: "Gothic Bold";
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: left;
     line-height: 1.2;
     margin: 0;
     overflow: hidden;
+}
+#footer{
+    position: relative;
+    height: 10.981111%;
 }
 
 @media only screen and (min-width: 0){
@@ -165,63 +156,50 @@ section{
     #house-type1{
         position: absolute;
         display: block;
-        top: 12.3%;
-        left: 65%;
-        width: 15%;
-        height: 6.5%;
+        top: 12.1%;
+        left: 64.3%;
         padding: 0.2%;
         overflow: hidden;
         color: white;
-        font-family: "Krasa Medium";
-        font-size: 12.35vw;
+        font-family: "Gothic Bold", "Krasa Medium";
+        font-size: 12.85vw;
         text-align: left;
     }
     #house-location1{
         position: absolute;
         display: block;
-        top: 19%;
-        left: 65%;
+        top: 19.5%;
+        left: 64.3%;
         width: 17.7%;
-        height: 4%;
         padding: 0.2%;
         overflow: hidden;
         color: white;
-        font-family: "Krasa Regular";
-        font-size: 6vw;
-        text-align: left;
-    }
-    #dollar-sign1{
-        position: absolute;
-        display: block;
-        top: 12%;
-        left: 80.5%;
-        color: #fee47c;
-        font-family: "Gothic Bold";
-        font-size: 10vw;
+        font-family: "Gothic Regular", "Krasa Regular";
+        font-size: 7.5vw;
         text-align: left;
     }
     #house-cost1{
         position: absolute;
         display: block;
-        top: 11.3%;
-        left: 81.7%;
+        top: 12%;
+        left: 83.7%;
         width: 13%;
         height: 8%;
         overflow: hidden;
         color: #fee47c;
         font-family: "Gothic Bold";
-        font-size: 15vw;
+        font-size: 14vw;
         text-align: left;
     }
     #tel1{
         position: absolute;
         color: white;
-        top: 34.7%;
+        top: 28%;
         left: 5.9%;
         width: 35%;
         height: 57%;
         font-family: "Gothic Bold";
-        font-size: 10vw;
+        font-size: 12.5vw;
         text-align: left;
         line-height: 1.2;
         margin: 0;
@@ -238,63 +216,50 @@ section{
     #house-type1{
         position: absolute;
         display: block;
-        top: 12.3%;
-        left: 65%;
-        width: 15%;
-        height: 6.5%;
+        top: 12.1%;
+        left: 64.3%;
         padding: 0.2%;
         overflow: hidden;
         color: white;
-        font-family: "Krasa Medium";
-        font-size: 7.41vw;
+        font-family: "Gothic Bold", "Krasa Medium";
+        font-size: 7.71vw;
         text-align: left;
     }
     #house-location1{
         position: absolute;
         display: block;
-        top: 19%;
-        left: 65%;
+        top: 19.5%;
+        left: 64.3%;
         width: 17.7%;
-        height: 4%;
         padding: 0.2%;
         overflow: hidden;
         color: white;
-        font-family: "Krasa Regular";
-        font-size: 3.6vw;
-        text-align: left;
-    }
-    #dollar-sign1{
-        position: absolute;
-        display: block;
-        top: 12%;
-        left: 80.5%;
-        color: #fee47c;
-        font-family: "Gothic Bold";
-        font-size: 6vw;
+        font-family: "Gothic Regular", "Krasa Regular";
+        font-size: 4.5vw;
         text-align: left;
     }
     #house-cost1{
         position: absolute;
         display: block;
-        top: 11.3%;
-        left: 81.7%;
+        top: 12%;
+        left: 83.7%;
         width: 13%;
         height: 8%;
         overflow: hidden;
         color: #fee47c;
         font-family: "Gothic Bold";
-        font-size: 9vw;
+        font-size: 8.4vw;
         text-align: left;
     }
     #tel1{
         position: absolute;
         color: white;
-        top: 34.7%;
+        top: 28%;
         left: 5.9%;
         width: 35%;
         height: 57%;
         font-family: "Gothic Bold";
-        font-size: 6vw;
+        font-size: 7.5vw;
         text-align: left;
         line-height: 1.2;
         margin: 0;

@@ -1,0 +1,266 @@
+@font-face{
+    src: url(../fonts/Krasar-Medium.ttf);
+    font-family: "Krasa Medium";
+}
+@font-face{
+    src: url(../fonts/GOTHICB0.TTF);
+    font-family: "Gothic Bold";
+}
+@font-face{
+    src: url(../fonts/Krasar-Regular.ttf);
+    font-family: "Krasa Regular";
+}
+@font-face{
+    src: url(../fonts/Century-Gothic.ttf);
+    font-family: "Gothic Regular";
+}
+#logo2{
+    position: relative;
+    display: block;
+    height: 47px;
+}
+.navbar{
+    background-color: #7c141f;
+}
+.nav-link{
+    color: white !important;
+    font-family: "Gothic Bold";
+    font-size: 15px;
+}
+.navbar-toggler{
+    background-color: white;
+}
+*{
+    box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+section{
+    width: 100%;
+    margin: auto;
+}
+#poster{
+    position: relative;
+    margin: 27px 0;
+}
+#image1, #image2{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+#house-type-input{
+    resize: vertical;
+    font-family: "Gothic Bold", "Krasa Medium";
+}
+#house-location-input{
+    resize: vertical;
+    font-family: "Gothic Regular", "Krasa Regular";
+}
+#house-cost-input{
+    resize: vertical;
+    font-family: "Gothic Bold";
+}
+#tel-input{
+    resize: vertical;
+    font-family: "Gothic Bold";
+}
+.button{
+    font-size: 15px;
+    padding: 5px;
+}
+#logo{
+    position: absolute;
+    width: 13%;
+    display: block;
+    top: 4%;
+    left: 3%;
+}
+#header{
+    position: absolute;
+    width: 40%;
+    display: block;
+    top: 5%;
+    right: 4%;
+}
+#house-type{
+    position: absolute;
+    display: block;
+    top: 10.7%;
+    left: 59%;
+    height: 7.7%;
+    padding: 0.3%;
+    overflow: hidden;
+    color: white;
+    font-family: "Gothic Bold", "Krasa Medium";
+    font-size: 3.1vw;
+    text-align: left;
+}
+#house-location{
+    position: absolute;
+    display: block;
+    top: 18.1%;
+    left: 59%;
+    width: 27%;
+    padding: 0.3%;
+    overflow: hidden;
+    color: white;
+    font-family: "Gothic Regular", "Krasa Regular";
+    font-size: 1.9vw;
+    text-align: left;
+}
+#house-cost{
+    position: absolute;
+    display: block;
+    top: 11%;
+    left: 81.7%;
+    height: 7%;
+    overflow: hidden;
+    color: #fee47c;
+    font-family: "Gothic Bold";
+    font-size: 3.2vw;
+    text-align: left;
+}
+#tel{
+    position: absolute;
+    color: white;
+    top: 32%;
+    left: 7%;
+    height: 77%;
+    font-family: "Gothic Bold";
+    font-size: 2.7vw;
+    text-align: left;
+    line-height: 1.2;
+    margin: 0;
+    overflow: hidden;
+}
+#footer{
+    position: relative;
+    height: 12.044%;
+}
+
+
+@media only screen and (min-width: 0){
+    #poster1{
+        position: relative;
+        width: 500vw; 
+        height: 333.333334vw;
+    }
+    #house-type1{
+        position: absolute;
+        display: block;
+        top: 10.7%;
+        left: 59%;
+        height: 7.7%;
+        padding: 0.3%;
+        overflow: hidden;
+        color: white;
+        font-family: "Gothic Bold", "Krasa Medium";
+        font-size: 15.5vw;
+        text-align: left;
+    }
+    #house-location1{
+        position: absolute;
+        display: block;
+        top: 18.1%;
+        left: 59%;
+        width: 27%;
+        padding: 0.3%;
+        overflow: hidden;
+        color: white;
+        font-family: "Gothic Regular", "Krasa Regular";
+        font-size: 9.5vw;
+        text-align: left;
+    }
+    #house-cost1{
+        position: absolute;
+        display: block;
+        top: 11%;
+        left: 81.7%;
+        height: 7%;
+        overflow: hidden;
+        color: #fee47c;
+        font-family: "Gothic Bold";
+        font-size: 16vw;
+        text-align: left;
+    }
+    #tel1{
+        position: absolute;
+        color: white;
+        top: 32%;
+        left: 7%;
+        height: 77%;
+        font-family: "Gothic Bold";
+        font-size: 13.5vw;
+        text-align: left;
+        line-height: 1.2;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    #poster1{
+        position: relative;
+        width: 300vw; 
+        height: 200vw;
+    }
+    #house-type1{
+        position: absolute;
+        display: block;
+        top: 10.7%;
+        left: 59%;
+        height: 7.7%;
+        padding: 0.3%;
+        overflow: hidden;
+        color: white;
+        font-family: "Gothic Bold", "Krasa Medium";
+        font-size: 9.3vw;
+        text-align: left;
+    }
+    #house-location{
+        position: absolute;
+        display: block;
+        top: 18.1%;
+        left: 59%;
+        width: 27%;
+        padding: 0.3%;
+        overflow: hidden;
+        color: white;
+        font-family: "Gothic Regular", "Krasa Regular";
+        font-size: 5.7vw;
+        text-align: left;
+    }
+    #house-cost{
+        position: absolute;
+        display: block;
+        top: 11%;
+        left: 81.7%;
+        height: 7%;
+        overflow: hidden;
+        color: #fee47c;
+        font-family: "Gothic Bold";
+        font-size: 9.6vw;
+        text-align: left;
+    }
+    #tel{
+        position: absolute;
+        color: white;
+        top: 32%;
+        left: 7%;
+        height: 77%;
+        font-family: "Gothic Bold";
+        font-size: 8.1vw;
+        text-align: left;
+        line-height: 1.2;
+        margin: 0;
+        overflow: hidden;
+    }
+}

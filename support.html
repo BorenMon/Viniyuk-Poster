@@ -4,13 +4,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Size Post</title>
+    <title>Square Post</title>
     <link rel = "icon" href =
     ./images/SVG/viniyuk_favicon.svg
           type = "image/x-icon">
 
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/free_size_post.css">
+    <link rel="stylesheet" href="./css/support.css">
 </head>
 
 <body>
@@ -47,54 +48,46 @@
     </div>
 </nav>
 
-    <section>
-        <div id="poster">
-
-            <img src="./images/house.jpg" alt="House" id="image1">
-            <img src="./images/SVG/logo2.svg" alt="Logo" id="logo">
-            
-        </div>
-
-        <div class="container">
-            <div class="row" style="margin-bottom: 15px;">
-                <div class="col-sm-12" style="text-align: center;">
-                    <button type="button" class="btn" onclick="downloadposter()" style="background-color: #7c141f; color: white;">Download</button>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4 welcome-text">
+                Let us know  how we may help you through these below massaging application :)
             </div>
-
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
-                        </div>
-                        <div class="custom-file">
-                            <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="inpFile" accept=".png, .jpeg, .jpg">
-                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-2">
+                <a href="https://m.me/BorenMon7" target="_blank">
+                    <div class="card" style="margin-top: 27px;">
+                        <div class="card-content">
+                          <div class="content">
+                            <img src="./images/SVG/facebook-messenger-brands.svg" alt="Messenger">
+                          </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
-
-        </div>
-
-        <div style="position: relative;">
-            <div id="poster1">
-                <div>
-                    <img src="./images/house.jpg" alt="House" id="image2">
-                </div>
-                <img src="./images/SVG/logo2.svg" alt="Logo" id="logo1">
+            <div class="col-sm-2">
+                <a href="https://t.me/Boren_Mon" target="_blank">
+                    <div class="card" style="margin-top: 27px;">
+                        <div class="card-content">
+                          <div class="content">
+                            <img src="./images/SVG/telegram-plane-brands.svg" alt="Messenger">
+                          </div>
+                        </div>
+                    </div>
+                </a>
             </div>
-            
-            <div style="background-color: white; position: absolute; height: 100%; width: 100%; top: 0; left: 0;"></div>
+            <div class="col-sm-4"></div>
         </div>
-
-    </section>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
-    <script src="js/free_size_post.js"></script>
+    <script src="js/square_post.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
 
 </body>
